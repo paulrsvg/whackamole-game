@@ -1,0 +1,33 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  
+}
+
+.grid {
+  display: flex; 
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  width: 318px;
+  height: 318px;
+}
+
+.mole {
+  background-image: url(https://github.com/kubowania/whack-a-mole/blob/master/mole.jpg?raw=true);
+  background-size: cover;
+  
+}
