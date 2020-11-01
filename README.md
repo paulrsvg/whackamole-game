@@ -3,7 +3,7 @@ Whackamole Game
 
 Play the demo on Glitch: https://whacka-smol-mol.glitch.me/
 
-Another simple retro game clone based off of a tutorial by [Ania Kubow](https://github.com/kubowania/whack-a-mole) 
+Another simple retro game clone based off of a tutorial by [Ania Kubow](https://github.com/kubowania/whack-a-mole). 
 I added some additional functionality to play the game multiple times and to save a high score. 
 
 Find out more [about Glitch](https://glitch.com/about).
