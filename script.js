@@ -16,7 +16,7 @@ const mole = document.querySelectorAll('.mole')
 const timeLeft = document.querySelector('#time')
 
 let score = document.querySelector('#score')
-
+let hiscore= document.querySelector('#hiscore')
 let result = 0
 let hitPosition = 0
 
@@ -57,6 +57,13 @@ function countDown() {
   if(currentTime === 0) {
     clearInterval(timerId)
     alert('GAME OVER! Your final score is ' + result)
+    if (result > hiscore.textContent)
+      hiscore.textContent = result
+    score.textContent = 0 // reset score
+    result = 0
+    timeLeft.textContent = 15 // reset time??
+    currentTime = timeLeft.textContent
+    timerId = setInterval(countDown, 1000)
   }
 }
 
